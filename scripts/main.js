@@ -22,13 +22,13 @@ $(() => {
             }, {
                 title: 'Página Curriculum',
                 link: 'https://miguelangelchgz.github.io/resume/',
-                description: 'PROYECTO X AQUI EN SAN JUAN ES LA DEMENCIAAAAAAAAAAAAA',
+                description: 'Página Curriculum desarrollada siguiendo el patrón de arquitectura MVC.',
                 image: 'https://raw.githubusercontent.com/miguelangelchgz/resume/master/resume.png'
             }, {
                 title: 'Proyecto Ejemplo',
                 link: '2010',
                 description: 'description',
-                image: ''
+                image: 'https://raw.githubusercontent.com/miguelangelchgz/portafolio/master/images/thumbnail.gif'
             }],
             display() {
 
