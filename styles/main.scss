@@ -1,0 +1,147 @@
+// bower:scss
+// endbower
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "../../bower_components/bootstrap/scss/bootstrap";
+$darkColor: #1a1a1a;
+$lightColor: #fafafa;
+$grayColor: #262626;
+$pinkColor: #448aff;
+$titi: 'Roboto', sans-serif;
+$primary: $pinkColor;
+$padding-sm: 40px;
+
+a:hover{
+	color: $pinkColor;
+}
+
+.background-light {
+	background-color: $lightColor;
+	color: $grayColor;
+	font-family: $titi;
+}
+.my-btn{
+	@extend .btn;
+	background-color: $pinkColor;
+	color: $lightColor;
+	border: 3px solid $pinkColor;
+}
+.card:hover{
+  	box-shadow: 0 4px 8px 0 $pinkColor;
+	a:hover{
+		color: $lightColor;
+	}
+}
+.card-body{
+	color: $grayColor;
+}
+.my-btn-out{
+	@extend .my-btn;
+	background: none;
+	border-color: $lightColor;
+
+}
+
+.background-dark {
+	background-color: $darkColor;
+	color: $lightColor;
+	font-family: $titi;
+}
+.padding-title{
+	padding-left: 105px;
+}
+.container-main {
+	height: 100%;
+}
+
+.home {
+	background: url("https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?dl&fit=crop&crop=entropy&w=1920&h=1280") no-repeat center center;
+	background-size: cover;
+	height: 100%;
+}
+
+
+.conta {
+	height: 100%;
+	width: 100%;
+}
+
+.padding {
+	padding: 80px;
+
+	img {
+		width: 100%;
+	}
+}
+
+.fab {
+	color: $darkColor;
+	padding: 15px;
+	font-size: 25px;
+}
+footer{
+	padding: 5%;
+}
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-size: 1rem;
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.container-main {
+		height: 40%;
+	}
+
+	.padding {
+		padding: 20px;
+	}
+	.padding-title{
+		padding-left: 20px;
+	}
+
+	img {
+		padding-bottom: 40px;
+	}
+}
+// Small devices (landscape phones, 576px and up) Nexus 4 Moto G etc
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.padding {
+		padding: $padding-sm;
+	}
+	html {
+    font-size: 1.2rem;
+  }
+
+
+}
+// Medium devices (tablets, 768px and up) IPAD Kindle etc
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container-main {
+		height: 40%;
+	}
+
+	.padding {
+		padding: 40px;
+	}
+	.padding-title {
+		padding-left: 40px;
+	}
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+/* Portrait IPAD PRO */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+	.container-main {
+		height: 40%;
+	}
+
+	.padding {
+		padding: 80px;
+	}
+}
