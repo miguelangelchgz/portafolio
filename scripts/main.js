@@ -27,7 +27,7 @@ $(() => {
             }, {
                 title: 'Proyecto Ejemplo',
                 link: '2010',
-                description: 'description',
+                description: 'Description',
                 image: 'https://raw.githubusercontent.com/miguelangelchgz/portafolio/master/images/thumbnail.gif'
             }],
             display() {
