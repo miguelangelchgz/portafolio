@@ -11,7 +11,7 @@ $(function () {
                 github: 'https://github.com/miguelangelchgz',
                 telegram: 'https://t.me/miguelangelch'
             },
-            about: 'Mi nombre es Miguel Angel Chacón, vivo en Maracay, me encuentro a la espera de mi título de Ingeniero de Sistemas, mis áreas favoritas de la programación son el desarrollo web y el desarrollo de aplicaciones móviles para Android',
+            about: 'Mi nombre es Miguel Angel Chacón, me encuentro a la espera de mi título de Ingeniero de Sistemas, mis áreas favoritas de la programación son el desarrollo web y el desarrollo de aplicaciones móviles para Android',
             welcome: 'Hola soy ',
             skills: ['HTML', 'CSS/SASS', 'JavaScript/ES6', 'JQuery', 'Python', 'Java', 'Android SDK']
         },
